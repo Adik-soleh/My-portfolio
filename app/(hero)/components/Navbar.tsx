@@ -108,13 +108,13 @@ function Navbar({
         >
           <div className="  grid grid-cols-1 gap-10 p-4)">
             <ProductItem
-              title="Beauty Landing Page"
+              title="Circle App"
               href="https://cirle-app-type-script.vercel.app/"
               src={circle.src}
               description=" Made With React TypeScript"
             />
             <ProductItem
-              title="MERN E-Commerce Page"
+              title="E-Commerce Lakoe"
               href="https://lakoe-frontend-beta.vercel.app/"
               src={lakoe.src}
               description="Integrated with bitechip and Midtrans"

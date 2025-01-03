@@ -13,30 +13,14 @@ function Educations() {
       <ul>
         <AnimatedSection>
           <li
-            // onClick={() => window.open("https://www.ui.ac.id/", "_blank")}
-            className=" cursor-pointer hover:border-amber-100 dark:bg-black dark:hover:border-amber-500 flex flex-col lg:flex-row justify-start items-center gap-6 w-full bg-white border-4 border-amber-300 px-16 py-8 my-4 rounded-3xl"
-          >
-            {/* <img draggable="false" src={logoUI.src} alt="" className="w-20" /> */}
-            <div>
-              <h2 className="font-black text-md sm:text-xl">
-                Universitas Muh.Tangerang
-              </h2>
-              <h3 className="font-bold text-black dark:text-white opacity-40 text-xs sm:text-sm  mb-4">
-                Manajemen SDM // 2021-now
-              </h3>
-            </div>
-          </li>
-        </AnimatedSection>
-        <AnimatedSection>
-          <li
-            // onClick={() =>
-            //   window.open("https://smaricci1.sekolahricci.sch.id/", "_blank")
-            // }
+            onClick={() =>
+              window.open("https://letrisindonesia1.sch.id/", "_blank")
+            }
             className=" cursor-pointer hover:border-amber-100 dark:bg-black dark:hover:border-amber-500 flex flex-col lg:flex-row justify-start items-center gap-6 w-full my-4 bg-white border-4 border-amber-300 px-16 py-8 rounded-3xl"
           >
             <img
               draggable="false"
-              // src={logoRICCI.src}
+              src={"https://letrisindonesia1.sch.id/wp-content/uploads/2023/09/logo-smk-letris.png"}
               alt=""
               className="w-20"
             />

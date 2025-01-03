@@ -101,12 +101,12 @@ export default function Contacts() {
               <FaGithub /> Github
             </div>
             <div
-              // onClick={() =>
-              //   window.open(
-              //     "https://www.linkedin.com/in/kevincornellius/",
-              //     "_blank"
-              //   )
-              // }
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/adik-soleh-395352268/",
+                  "_blank"
+                )
+              }
               className="mr-1  hover:opacity-60  flex cursor-pointer justify-center items-center underline underline-offset-2 decoration-amber-300 font-bold text-2xl gap-3"
             >
               <FaLinkedinIn /> LinkedIn

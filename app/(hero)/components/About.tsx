@@ -23,20 +23,7 @@ function About({
       />
       <br />
       <p className="pt-10 mb-16 ">
-        Hi, my name is
-        <span className="font-bold"> Adik SOleh! </span> I was
-        born in <span className="font-bold">2001</span> and have a strong
-        passion for programming. I enjoy{" "}
-        {/* <a
-          className="font-bold underline underline-offset-2 decoration-amber-300 "
-          target="_blank"
-          href="https://codeforces.com/profile/worthytacos"
-          rel="noopener noreferrer"
-        >
-          competitive programming
-        </a>{" "} */}
-        and always like learning new things. Whether it's making websites, I love turning ideas into reality
-        with technology and creativity.
+      I am a fullstack developer with 1 year of professional experience. I have expertise in building modern web applications using various technologies, including TypeScript, React, and backend frameworks. With a passion for solving problems and creating efficient digital solutions, I continuously strive to enhance my skills and deliver the best outcomes for every project I work on.
         
       </p>
 

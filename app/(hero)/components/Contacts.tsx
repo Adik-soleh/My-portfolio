@@ -32,33 +32,21 @@ export default function Contacts() {
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setLoading(true);
-
+  
     const formData = new FormData(event.currentTarget);
-    formData.append("access_key", process.env.NEXT_PUBLIC_ACCESS_KEY || "");
-
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: json,
-      });
-      const result = await response.json();
-      if (result.success) {
-        setPopupMessage("Message Sent");
-      } else {
-        setPopupMessage("Failed, Try Again Later");
-      }
-    } catch (error) {
-      setPopupMessage("Failed, Try Again Later");
-    } finally {
-      setLoading(false);
-    }
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
+    const message = formData.get("message") as string;
+  
+    // Membuat format mailto untuk mengirim email
+    const mailtoLink = `mailto:adiksoleh4@gmail.com?subject=New Message from ${encodeURIComponent(
+      name
+    )}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage: ${message}`)}`;
+  
+    // Arahkan ke mail client
+    window.location.href = mailtoLink;
+  
+    setLoading(false);
   }
 
   return (

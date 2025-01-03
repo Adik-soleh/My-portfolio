@@ -12,7 +12,7 @@ import { FaCss3Alt, FaReact } from "react-icons/fa6";
 import { DiHtml5 } from "react-icons/di";
 import { GrCss3 } from "react-icons/gr";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiChakraui, SiExpress, SiMongodb, SiPostgresql } from "react-icons/si";
+import { SiChakraui, SiExpress, SiMongodb, SiPostgresql, SiTypescript } from "react-icons/si";
 import { RiNodejsLine } from "react-icons/ri";
 function Projects() {
   return (
@@ -41,7 +41,9 @@ export const projects = [
       { icon: FaReact, link: "https://react.dev/" },
       { icon: DiHtml5, link: "https://www.w3schools.com/html/" },
       { icon: FaCss3Alt, link: "https://www.w3schools.com/css/" },
+      { icon: SiChakraui, link: "https://chakra-ui.com/" },
       { icon: IoLogoJavascript, link: "https://www.javascript.com/" },
+      { icon: SiTypescript, link: "https://www.typescriptlang.org/" },
     ],
   },
   {
@@ -50,7 +52,7 @@ export const projects = [
       "This e-commerce project is developed using TypeScript, React, and Chakra UI for a responsive and modern frontend. The backend is powered by Express with PostgreSQL as the primary database for product and transaction management. Payment systems are integrated with Midtrans and Bitechip, ensuring secure and efficient transactions. This technology stack is designed to deliver a seamless, well-structured, and reliable online shopping experience.",
     link: "https://lakoe-frontend-beta.vercel.app/",
     image: lakoe,
-    githubLink: "https://github.com/kevincornellius/MERN-ecommerceweb",
+    githubLink: "https://github.com/Adik-soleh/lakoe-frontend",
     icons: [
       { icon: SiPostgresql, link: "https://www.mongodb.com/" },
       { icon: SiExpress, link: "https://expressjs.com/" },
@@ -58,6 +60,7 @@ export const projects = [
       { icon: RiNodejsLine, link: "https://nodejs.org/en" },
       { icon: DiHtml5, link: "https://www.w3schools.com/html/" },
       { icon: SiChakraui, link: "https://www.w3schools.com/css/" },
+      { icon: SiTypescript, link: "https://www.typescriptlang.org/" },
       { icon: IoLogoJavascript, link: "https://www.javascript.com/" },
     ],
   },

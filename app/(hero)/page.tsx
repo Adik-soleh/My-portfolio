@@ -6,7 +6,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 import Projects from "./components/Projects";
 import { AnimatedSection } from "@/components/ui/animated-reveal";
 import Experiences from "./components/Experiences";
-import Achievement from "./components/Achievement";
+// import Achievement from "./components/Achievement";
 import Contacts from "./components/Contacts";
 import Educations from "./components/Educations";
 
@@ -60,9 +60,9 @@ function Page() {
               <Educations />
             </div>
 
-            <div ref={AchievementRef}>
+            {/* <div ref={AchievementRef}>
               <Achievement />
-            </div>
+            </div> */}
 
             <div ref={ContactsRef}>
               <Contacts />

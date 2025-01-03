@@ -68,11 +68,10 @@ export const HoverEffect = ({
                 Demo
               </button>
               <div
-                // href={item.githubLink}
                 onClick={(e) => {
                   e.stopPropagation();
                   e.preventDefault();
-                  // window.open(item.githubLink, "_blank");
+                  window.open(item.githubLink, "_blank");
                 }}
                 className=" flex  items-center gap-2 z-10 px-6 py-2 border-2 border-black dark:border-white dark:bg-white bg-black transition-colors duration-500 ease-in-out hover:bg-white dark:hover:bg-black dark:text-black dark:hover:text-white   text-white hover:text-black font-bold rounded-xl text-xs sm:text-sm"
               >

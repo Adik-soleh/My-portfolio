@@ -9,8 +9,8 @@ import {
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import beautyWeb from "../../../components/assets/beautyweb.png";
-import mern from "../../../components/assets/mern.png";
+import circle from "../../../components/assets/circle.png";
+import lakoe from "../../../components/assets/lakoe.png";
 import { FaGithub } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -109,15 +109,15 @@ function Navbar({
           <div className="  grid grid-cols-1 gap-10 p-4)">
             <ProductItem
               title="Beauty Landing Page"
-              href="https://beauty-website-demo.web.app/"
-              src={beautyWeb.src}
-              description=" Made With React Javascript"
+              href="https://cirle-app-type-script.vercel.app/"
+              src={circle.src}
+              description=" Made With React TypeScript"
             />
             <ProductItem
               title="MERN E-Commerce Page"
-              href="https://ecommerceweb-frontend.vercel.app/"
-              src={mern.src}
-              description="Integrated with Stripe and Cloudinary"
+              href="https://lakoe-frontend-beta.vercel.app/"
+              src={lakoe.src}
+              description="Integrated with bitechip and Midtrans"
             />
           </div>
         </MenuItem>
